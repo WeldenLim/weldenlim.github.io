@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: '', //TODO: Your GitHub org/user name. (Required)
+    username: 'WeldenLim', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
@@ -11,17 +11,17 @@ const config = {
     },
   },
   scratch: {
-    username: '', //TODO: Your Scratch username. (Required)
+    username: 'VirtualRobloxYes', //TODO: Your Scratch username. (Required)
     limit: 8, // How many projects to display; maximum 20
     sortBy: 'date', // date | views | remixes
-    corsProxy: "" //TODO: Enter your CORS Proxy here
+    corsProxy: "https://scratchapicors-qmr9ek0n8-weldenlim.vercel.app/" //TODO: Enter your CORS Proxy here
   },
   social: { //TODO: Add in Socials
     linkedin: '',
     facebook: '',
     instagram: '',
     tiktok: '',
-    email: '',
+    email: 'weldenlim2011@gmail.com',
     website: '',
     // dev: '',
     // twitter: '',
@@ -41,30 +41,26 @@ const config = {
   skills: [
     'Scratch',
     'Microbit',
-    'JavaScript',
     'Design Thinking',
     'Python',
     'Git',
-    'CSS',
     'MakeCode',
-    'ScratchJr',
-    'Hopscotch',
     'Robotics',
+    'Math Olympiad'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'The Young Maker',
+      position: 'Student',
+      from: 'April 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://theyoungmaker.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Piano',
+      position: 'Grade 5 Student',
+      from: 'January 2018',
+      to: 'Present',
     },
   ],
   certifications: [
@@ -77,37 +73,47 @@ const config = {
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Elias Park Primary School',
+      degree: 'PSLE',
+      from: '2018',
+      to: 'Present',
     },
   ],
 
   // TODO: Add external projects
   externalProjects: [
     {
-      title: 'Microbit Flappy Bird',
-      description:
-        'This project presents a Flappy Bird-inspired game designed for the Micro:bit v2 platform. It is constructed using for loops, conditional statements, functions, and lists to create an entertaining and interactive gaming experience.',
-      imageUrl:
-        'https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png',
-      link: 'https://makecode.microbit.org/_8hTHCD4ax7ty',
-    },
-    {
       title: 'Microbit Space Invaders',
       description:
         "This project features a traditional Space Invaders game developed for the Microbit v2 platform. It utilizes while loops, conditional statements, variables, and the Microbit's native game coordinate system to deliver an engaging gaming experience.",
       imageUrl:
         'https://www.svg.com/img/gallery/the-original-idea-behind-space-invaders-that-could-have-changed-gaming-forever/l-intro-1608754172.jpg',
-      link: 'https://makecode.microbit.org/_UXqLuYJfJRL6',
+      link: 'https://makecode.microbit.org/_ED1KtuX1xRka',
     },
+    {
+      title: 'Microbit Treasure Hunt',
+      description:
+        "Treasure Hunt is an engaging Micro:bit project designed using MakeCode's inbuilt game system. In this immersive game, players are tasked with navigating their character through a virtual maze to collect hidden treasures. The challenge lies in avoiding strategically placed bombs throughout the game, The Mico:bits LED grid serves as the display, lighting up to indicate treasures, bombs, and the players current position. The game showcases the power of Mico:bit and MakeCode, creating a fun interactive experience that tests players' strategy and quick thinking.",
+      imageUrl:
+        'https://www.trainerbubble.com/wp-content/uploads/2015/09/Treasure-Hunt_web.jpg',
+      link: 'https://makecode.microbit.org/_4Y6KJkeEM3su',
+    },
+    {
+      title: 'Microbit Pacman',
+      description:
+        "Pacman is an inventive Micro:bit project, designed using the MakeCode's inbuily game system. Drawing inspiration from the classic Pacman game, players are tasked with navigating their Pacman character to eat dots displayed on the Micro:bit's LED grid, while avoiding the ghosts. The unique twist of this game lies in the use of Micro:bit's inbuilt gyroscope for controls, where players tilt the Micro:bit in different directions to move the Pacman. This project beautifully blends the nostalgia of the classic game with modern technology, providing an exciting and interactive gaming experience that tests the player's agility and quick reflexes.",
+      imageUrl:
+        'https://easydrawingguides.com/wp-content/uploads/2021/09/Pacman-Pixel-Art-step-by-step-drawing-tutorial-step-10.png',
+      link: 'https://makecode.microbit.org/_ED1KtuX1xRka',
+    },
+    {
+      title: 'Microbit Buzz Wire',
+      description:
+        "The Buzz Wire Game is an innovative project utilizing the Micro:bit's circuit system. In this captivating game, players are given firve lives and the challenge to skillfully navigate a loop from one end of the buzzwire to the other without making contact more than four times. Every touch with the buzzwire results in a life lost, tracked bu the Micro:bit's LED display. The game conclides victoriously when the player successfully transports the loop to the other end of the wire without depleting all lives. This project showcases the interactive possibilities of the Micro:bit's circuit system, testing the player's steadiness and precision in a thrilling and engaging manner.",
+      imageUrl:
+        'https://www.resourcecentre.org.uk/wp-content/uploads/2016/10/Buzz-wire-001.jpg',
+      link: 'https://makecode.microbit.org/_XR88Kw9MRiMH',
+    }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
