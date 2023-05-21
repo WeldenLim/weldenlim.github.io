@@ -65,11 +65,72 @@ const config = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Python Beginner',
+      body: 'The Young Maker',
+      year: 'April 2023',
+      link: 'https://drive.google.com/file/d/1On4fKki5M_kYkAvtq63xNeevtY6c8RRq/view?usp=sharing'
     },
+    {
+      name: 'Python Introduction',
+      body: 'The Young Maker',
+      year: 'February 2023',
+      link: 'https://drive.google.com/file/d/1hZ9Plz7OtVzJ7HxBuzvS4W_Ol2WitjXd/view?usp=sharing'
+    },
+    {
+      name: 'Microbit Advanced',
+      body: 'The Young Maker ',
+      year: 'November 2022',
+      link: 'https://drive.google.com/file/d/1KsHugkOCi7bIeHnjXY4Pit7rXUgkhF23/view?usp=sharing'
+    },
+    {
+      name: 'Scratch Advanced',
+      body: 'The Young Maker',
+      year: 'July 2022',
+      link: 'https://drive.google.com/file/d/1X2XcD3QCXSuelbQxGL9Zth_kP6GzY55z/view?usp=sharing'
+    },
+    {
+      name: 'Certificate of Participation - Young Innovative Coder',
+      body: 'Youth Tech - Asia Challenge 2022',
+      year: 'August 2022',
+      link: 'https://drive.google.com/file/d/1XjnIW76dMWmREwQPkEX8FjTfN5OPGvln/view?usp=sharing'
+    },
+    {
+      name: 'Math Olympiad 2022',
+      body: 'National Mathematical Olympiad of Singapore',
+      year: 'October 2022',
+      link: 'https://drive.google.com/file/d/1CiUQK9U30_-V95jUEy9q5NNLc96tntPL/view?usp=sharing'
+    },
+    {
+      name: 'Math Olympiad 2021',
+      body: 'National Mathematical Olympiad of Singapore',
+      year: 'October 2021',
+      link: 'https://drive.google.com/file/d/1Vb1ly7fm88d9UfVa_atTVaNKSXvCFOSm/view?usp=sharing'
+    },
+    {
+      name: 'Best in Mathematics',
+      body: 'Elias Park Honours Day 2020',
+      year: 'November 2020',
+      link: 'https://drive.google.com/file/d/1GX-1mVyMH77di9bL2Nju_P2aaa65PThQ/view?usp=share_link'
+    },
+    {
+      name: 'Grade 4 Piano',
+      body: 'The Associated Board of the Royal Schools of Music',
+      year: 'August 2022',
+      link: 'https://drive.google.com/file/d/1PCvzibeUQ1NCIfq7B2zFj6TD-884axIB/view?usp=sharing'
+    },
+    {
+      name: 'Certificate Of Distinction - Piano Classical Junior',
+      body: 'The Happy Music Festival 2022',
+      year: 'July 2022',
+      link: 'https://drive.google.com/file/d/1ilPHzPxm8kBrai11gFIhdnlpLwJscCb2/view?usp=sharing'
+    },
+    {
+      name: 'Swimming Gold Award',
+      body: 'SwimSafer',
+      year: 'March 2021',
+      link: 'https://drive.google.com/file/d/1tGHow-D45Mseg-dwkxRFC3csP3i7_CEG/view?usp=sharing'
+    },
+
   ],
   education: [
     {
